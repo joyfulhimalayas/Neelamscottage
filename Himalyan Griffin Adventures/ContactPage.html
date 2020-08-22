@@ -1,0 +1,137 @@
+ 
+<html>
+	<head>
+		<style type="text/css">
+			h1{ 
+				align-content: center;
+				font-family: Freestyle Script, Helvetica, sans-serif;
+				background-color: transparent;
+				background-size: 100% 100%;
+				font-size: 75px;
+				color: black;               /* #164F1A #555E78, black, #D80E0E  */
+				/*border: 3px solid black;*/
+				resize: auto;
+			}
+			body{
+				background-image: url("C:/Users/61401/Downloads/fbg5.JPG");
+				background-repeat: no-repeat;
+				/*background-color: #A8A8A8;*/
+				background-size: 100% 100%;
+				overflow-y: scroll;
+				overflow-x: hidden;
+				resize: auto;
+			}
+
+			/* Style inputs with type="text", select elements and textareas */
+			input[type=text], select, textarea {
+			  width: 100%; 
+			  padding: 12px; 
+			  border: 1px solid #ccc; 
+			  border-radius: 4px;
+			  box-sizing: border-box; 
+			  margin-top: 6px; 
+			  margin-bottom: 16px; 
+			  resize: auto;
+			}
+
+			/* Style the submit button with a specific background color etc */
+			input[type=submit] {
+			  background-color: #4CAF50;
+			  color: white;
+			  padding: 12px 20px;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+			  resize: auto;
+			}
+			input[type=reset] {
+			  background-color: #4CAF50;
+			  color: white;
+			  padding: 12px 20px;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+			}
+
+			/* When moving the mouse over the submit button, add a darker green color */
+			input[type=submit]:hover {
+			  background-color: #45a049;
+			  resize: auto;
+			}
+			input[type=reset]:hover {
+			  background-color: #45a049;
+			  resize: auto;
+			}
+
+			/* Add a background color and some padding around the form */
+			.container {
+			  border-radius: 10px;
+			  background-color: #f2f2f2;
+			  padding: 20px;
+			  resize: auto;
+			}
+			.button {
+			    color: lightgreen;
+			    padding: 15px 196px;
+ 			    text-align: center;
+ 				text-decoration: none;
+  				display: inline-block;
+ 			 	margin: 2px 1px;
+  				cursor: pointer;
+  				background-color: transparent;
+  				resize: auto;
+  				font-size: 26px;
+  			}
+  			footer{
+				background-color: black;
+				text-align: center;
+				height: 50px;
+				width: 100%;
+				color: white;
+				resize: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align = center>NEELAMS' COUNTRYSIDE COTTAGE!</h1>
+		
+			<a href="C:/Users/61401/Documents/HomePage.html" class="button" style="align-items: center;">Home </a>
+	 		<a href="C:/Users/61401/Documents/TariffPage.html" class="button" style="align-items: center;">Tariff</a>
+	 		<a href="C:/Users/61401/Documents/ContactPage.html" class="button" style="align-items: center;">Contact Us</a>
+
+
+	 		</fieldset>
+				<legend style="font-size: 26; font-family: Ariel, Helvetica, sans-serif "><b>Get in touch</b></legend>
+				<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1693.3663731545487!2d77.1287511!3d31.913858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3904f719cd916fbd%3A0x623910b74584aa4c!2sApple%20Valley%20Resort!5e0!3m2!1sen!2sin!4v1597570731506!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border: 1px dashed black" allowfullscreen="yes" aria-hidden="false" tabindex="0"></iframe></p>
+			</fieldset>
+
+
+			<div class="container">
+  				<form action="mailto: joyfulhimalyas@outlook.com" method = "post" enctype="text">
+
+   				<label for="fname" required>First Name</label>
+   				<input type="text" id="fname" name="firstname" placeholder="Your name.." required="Please fill out this field">
+
+    			<label for="lname" >Last Name</label>
+    			<input type="text" id="lname" name="lastname" placeholder="Your last name.." required="Please fill out this field">
+
+    			<label for="number">Phone Number</label>
+    			<input type="text" name="number" required="Please fill out this field"> 
+    		
+
+   				 <label for="subject" >Subject</label>
+   				 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required="Please fill out this field"></textarea>
+
+   				 <input type="submit" value="Submit">
+   				 <input type="reset" name="reset" value="Reset">
+
+  			</form>
+		</div>
+		<br>
+		<br>
+	<footer>
+		Website Designed and Developed by Shivang Jatwani <span>&#169;</span>
+	</footer>
+
+	</body>
+</html>
